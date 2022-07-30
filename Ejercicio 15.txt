@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main(){
+    
+    
+    int numero,iteracion, operacion, duplicado, aumento, conta2, aux=0;
+    int contador, suma =1; 
+    cout<<"Ingrese el número impar para la la suma: "<<endl;
+    cin>>numero;
+    duplicado=numero;
+    
+    for(int i=1;i<=duplicado;i++){
+        contador = contador + 2;
+        aux = contador;
+
+        
+        for(int j=1;j<4;j++){
+            
+            numero = suma + aux;
+            aumento = suma + numero;
+            numero = aumento+aux;
+
+            
+            
+        }
+conta2 = aumento + aumento;
+cout<<conta2+3<<endl;
+
+cout<<"La suma de los numeros es: "<<conta2;
+}
+    return 0;
+    
+}
